@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:id="@+id/LLOptions"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <Button android:id="@+id/BTNGiveup"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/give_up"
+            />
+        <Button android:id="@+id/BTNQuit"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/quit"
+            />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LLPoints"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <RelativeLayout android:id="@+id/RLSelfgameinfo"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            >
+            <ImageView android:id="@+id/IVSelfProfile"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/self_head_portrait"
+                android:scaleType="centerInside"/>
+            <ImageView android:id="@+id/IVSelfTurn"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:scaleType="center"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/IVSelfProfile"/>"
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/RLEnemygameinfo"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            >
+            <ImageView android:id="@+id/IVEnemyProfile"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/enemy_head_portrait"
+                android:scaleType="centerInside"/>
+            <ImageView android:id="@+id/IVEnemyTurn"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:scaleType="center"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/IVEnemyProfile"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LLChessView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"></LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, mainActivity!</string>
+    <string name="app_name">mainGame</string>
+    <string name="Role_black">黑方</string>
+    <string name="Role_white">白方</string>
+    <string name="give_up">认输</string>
+    <string name="quit">退出</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_good">GoodActivity</string>
+    
+    <string name="option_ipconnect">连接IP</string>
+    <string name="option_quit">退出</string>
+
+    <string name="ipconnect_dialog_title">输入要连接的IP</string>
+    <string name="ipconnect_dialog_go">连接</string>
+    
+    <string name="invite_game_param">%1$s邀请你一起游戏</string>
+    
+    <string name="receive_game">接受</string>
+    <string name="reject_game">拒绝</string>
+</resources>

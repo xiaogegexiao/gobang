@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    >
+    
+    <TextView android:id="@+id/TVSelfip" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_gravity="top|left">
+    </TextView>
+    <RelativeLayout 
+        android:id="@+id/BTNIPConnect"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/darker_gray"
+        >
+        <TextView
+            android:text="@string/option_ipconnect"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></TextView>    
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@+id/BTNQuit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@android:color/darker_gray">
+        <TextView
+            android:text="@string/option_quit"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></TextView>
+    </RelativeLayout>
+</LinearLayout>
